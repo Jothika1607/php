@@ -1,0 +1,8 @@
+1.if 
+2.if else
+3.elseif
+4.switch
+
+https://www.tutorialspoint.com/php/php_decision_making.htm
+https://www.geeksforgeeks.org/php-decision-making/
+https://www.w3schools.com/php/php_if_else.asp

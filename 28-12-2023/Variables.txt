@@ -1,0 +1,110 @@
+https://www.javatpoint.com/php-variables
+https://www.tutorialspoint.com/php/php_variable_types.htm
+
+
+variable:
+	
+	1.integer 
+		$var=23;
+	2.double
+		$a=2.3445556;
+	3.boolean
+		if(true)
+			echo "true";
+		else
+			echo "false";
+	4.null
+		$a=NULL;
+	5.strings
+		$var="name"
+		$var='this is a single quote';
+		
+		<?php
+			$var="name";
+			$var1=' this is a $var';
+			print($var1)		//op- this is a $var
+			$var1="this is a $var";
+			print($var1);		//op-this is a name
+		?>
+				
+\n- newline
+\t-tab space
+
+
+Variable naming:
+	Variable names must begin with letter or underscore
+	it consists of letter, number,underscore but not the special character
+
+
+ variable scope:
+	variable can be declared anywhere in the script.
+	scope of variable is about where the variable can be used or referenced
+
+local variable:
+	variable declared inside the function, it considered local.
+	it can be referenced in that function
+
+	<?php
+		$x=4;
+		function assign(){
+			$x=0;
+			print "$x inside"; // 0 inside
+		}
+		assign()
+		print "$x outside";	//4 outside
+	?>
+
+function parameters:
+	these are declared after the function name and inside parentheses
+
+	<?php
+		function mul($val){
+			$val=$val*10;
+			return $val;
+		}
+		$ret=mul(10);
+		print "$ret";	// 100
+	?>
+
+Global variable
+	variable declareed outside the function.
+	it can be accessed only ouside the functiom\n
+
+	<?php
+		$x=4;
+		function assign(){
+			print "$x inside"; // error
+		}
+		assign()
+		print "$x outside";	//4 outside
+	?>	
+
+	
+
+	Global keyword - used to access the global variable inside the function
+
+	<?php
+		$x=4;
+		function assign(){
+			global $x;
+			print "$x inside"; //4 inside
+		}
+		assign()
+		print "$x outside";	//4 outside
+	?>
+
+
+static variable:
+	put static keyword before the variable
+	static variable will not lose its value when the function exists and will still hold that values should the function be called again
+
+	<?php
+		function track(){
+			static $count=0;
+			$count++;
+			print $count;
+		}
+		track();	//1
+		track();	//2
+		track();	//3
+	?>

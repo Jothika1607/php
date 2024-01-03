@@ -1,0 +1,38 @@
+https://www.w3schools.com/php/php_operators.asp
+https://www.tutorialspoint.com/php/php_operator_types.htm
+
+
+
+OPERATOR
+Arithmetic operator
+	addition(+)
+	subtraction(-)
+	multipication(*)
+	division(/)
+Increment operator
+	pre-increment(++)
+	post-increment
+	pre-decrement(--)
+	post-decrement
+Comparison operator
+	equal to(==)
+	not equal to(!=)
+	less than(<)
+	less than or equal to(<=)
+	greater than(>)
+	greater than or equal to(>=)
+
+Assignment operator
+	+= , -=, *=, /=
+
+Precedence of PHP operators
+	Category	Operator	Associativity
+	Unary		! ++ --		Right to left
+	Multiplicative	* / %		Left to right
+	Additive	+ -		Left to right
+	Relational	< <= > >=	Left to right
+	Equality	== !=		Left to right
+	Logical AND	&&		Left to right
+	Logical OR	||		Left to right
+	Conditional	?:		Right to left
+	Assignment	= += -= *= /= %=Right to left

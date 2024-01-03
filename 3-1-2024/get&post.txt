@@ -1,0 +1,19 @@
+https://www.w3schools.com/php/php_form_validation.asp
+https://www.tutorialspoint.com/php/php_get_post.htm
+
+
+run in terminal  php -S localhost:8000
+
+GET:
+	info is visibel to everyone.
+	all variables names and values are displayed in the url.
+	has limit on the amt of inf to send
+	limitation-2000character
+	variable is displayed in url, it is possible to bookmark the page
+	used for sending non sensitive data
+
+POST:
+	invisible to others
+	all names/values are embeded within the body of the http request
+	no limits for the amt of info
+	used for sending sensitive data

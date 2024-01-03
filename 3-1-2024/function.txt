@@ -1,0 +1,7 @@
+Create a function
+	create a func using function keyword
+	function funcname(){}
+
+Call a function
+	funcname();
+	

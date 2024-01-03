@@ -1,0 +1,31 @@
+https://www.tutorialspoint.com/php/php_syntax_overview.htm
+
+
+
+
+Escaping to php:
+   four types
+ 	canonical php tag <?php...?>
+	Short-open tag<?...?>
+	ASP style tags<%..%>
+	Html script <script language ="PHP">..</script>
+Commenting php code
+	single comments # //
+	multi line /*  */
+PHP whitespace insensitive
+	beacuse it doesnot matter you have in one row.
+	one whitespace is equal to many whitespace
+	example:
+		$a= 2 + 2 ; //single space
+		$a	=	2	+	2	; //tab
+		$a	=	
+		2	+	2	
+		; //multiple line
+PHP is case sensitive
+Statement are expressions terminated by semicolons
+	$a=3;
+Braces make blocks
+	if(3=2+1){
+		print("Crt")
+		print("Ans")
+	}

@@ -1,0 +1,51 @@
+https://www.youtube.com/watch?v=6JtP8xk1U_k
+https://www.youtube.com/watch?v=6JtP8xk1U_k&t=389s
+https://www.tutorialspoint.com/php/php_constants.htm
+
+
+is a name or identifier
+constant values cnanot change during execution
+is a case sensitive and always in uppercase
+names start with letter or underscore follwoed by any number, letter or underscore
+if you defined a constant, you cnnot be changed.
+donot need to have a constant with dollor sign($).
+two ways:
+define() function:
+	to use define() for define a constant.
+ 	define('name','value')
+
+	check the constant value is defined or not and display in boolen value like 0 or 1
+	echo defined("NAME");
+
+	display the constant value
+	echo NAME;
+
+const keyword:
+	define constant using const keyword
+	const age=23;
+
+	display the constant value
+	echo age;
+
+
+Use already defined varibale values as a constant:
+	$id=2030;
+    	define("ID".$id,$id);
+    	echo "ID";
+
+Magical Constant
+	PHP provides a large number of predefined constants to any script which it runs.
+
+	__LINE__        -  current line number of the file
+	__FILE__         - full path of the file
+	__FUNCTION__    - function name
+	__CLASS__      - class
+	__METHOD__     -method
+   
+	
+
+difference between constant and variable
+ In constant, no need to put dollar sign  whereas variable need dollar sign.
+ constant must be assigned using define() function
+ it can be accessed anywhere without variable scopes rules
+ once constant is set, it cannot be redefined or undefined.

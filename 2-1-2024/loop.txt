@@ -1,0 +1,18 @@
+https://www.w3schools.com/php/php_looping.asp
+https://www.tutorialspoint.com/php/php_loop_types.htm
+
+
+
+1.for loop
+2.while loop
+3.do while loop
+4. foreach loop
+	The foreach statement is used to loop through arrays. For each pass the value of the current array element is assigned to $value and the array pointer is moved by one and in the next pass next element will be processed.
+
+Syntax
+foreach (array as value) {
+   code to be executed;
+}
+
+5.break
+6.continue

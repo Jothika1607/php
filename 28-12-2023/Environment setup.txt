@@ -1,0 +1,14 @@
+https://www.geeksforgeeks.org/how-to-set-php-development-environment-in-windows/
+https://www.tutorialspoint.com/php/php_environment.htm
+https://code.visualstudio.com/docs/languages/php
+
+
+
+Step 1: Download the xampp server using the link 
+	https://www.apachefriends.org/download.html
+Step 2: Open the exe.file and click yes for further process.
+Step 3: Click on next, it will go to welcome page.
+Step 4: Select the component what will you want.
+Step 5: Select the path where you want to install the xampp.
+Step 6: Click next for starting to install.
+Step 7: Open the Xampp control panel and start the Apache.

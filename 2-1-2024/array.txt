@@ -1,0 +1,91 @@
+https://www.tutorialspoint.com/php/php_arrays.htm
+https://www.w3schools.com/php/php_arrays.asp
+
+
+
+
+Array
+	special variable that can hold many values under a single name.
+	you can access the values by referring to an index number or name.
+
+Type
+	Indexed arrays - Arrays with a numeric index
+	Associative arrays - Arrays with named keys
+	Multidimensional arrays - Arrays containing one or more arrays
+
+
+Indexed array
+    $arr=array(10,"Jo",20); //array declaration
+    var_dump($arr);         //variable type
+    echo "\n$arr[2]";      //display the particular items using indexed
+    $arr[1]=30;           //change the value
+    echo "\n$arr[1]\n"; 
+    echo count($arr);     //using count() function
+    array_push($arr,40);  // add extra values into the array
+
+
+	  /* Second method to create array. */
+         $numbers[0] = "one";
+         $numbers[1] = "two";
+         $numbers[2] = "three";
+         $numbers[3] = "four";
+         $numbers[4] = "five";
+         
+         foreach( $numbers as $value ) {
+            echo "Value is $value <br />";
+         }
+
+
+Associative array
+	The associative arrays are very similar to numeric arrays in term of functionality but they are different in terms of their index. Associative array will have their index as string so that you can establish a strong association between key and values.
+	
+	$arr=array("Name"=>"Jo", "Id"=>12045, "age"=>23);  // first method to create associative array
+    var_dump($arr);
+
+    $arr["Name"]="Jo";  // second method to create array
+    $arr["Id"]=12453;
+    $arr["Age"]=23;
+    echo $arr["Name"];   // access the array
+    $arr["Age"]=10;      //change value of array
+    echo $arr["Age"];
+    foreach($arr as $x=>$y){ // loop through the items
+        echo "$x=>$y";
+    }
+
+
+Multidimensional array
+each element in the main array can also be an array. And each element in the sub-array can be an array, and so on. Values in the multi-dimensional array are accessed using multiple index.
+
+
+	$arr=array(                                 // mulidimensional array declaration
+        "Jo"=>array("id"=>1230,"age"=>23),
+        "Karthi"=>array("id"=>234,"age"=>20),
+        "Anu"=>array("id"=>455,"age"=>40)
+    );
+    echo "\n";
+    echo $arr["Karthi"]["age"];         // accessing the array
+
+	
+Sorthing the array
+
+sort() - sort arrays in ascending order
+rsort() - sort arrays in descending order
+asort() - sort associative arrays in ascending order, according to the value
+ksort() - sort associative arrays in ascending order, according to the key
+arsort() - sort associative arrays in descending order, according to the value
+krsort() - sort associative arrays in descending order, according to the key
+
+$arr=array(45,3,7,85,23);  
+    rsort($arr);               // sort the array in descending 
+    $len=count($arr);
+    for($i=0;$i<$len;$i++){
+        echo "\t".$arr[$i];
+    } 
+    echo "\n";
+
+$arr=array("J0"=>20,"kar"=>12,"anu"=>78);
+    asort($arr);               //sort the associative array in ascending according to the values
+    foreach($arr as $x=>$y ){
+        echo "\t$x=>$y";
+    }
+    echo "\n";

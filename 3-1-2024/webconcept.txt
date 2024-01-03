@@ -1,0 +1,19 @@
+https://www.youtube.com/watch?v=YIq9LXJMYgc
+
+
+
+
+WEB CONCEPT:
+
+
+HTTP_USER_AGENT 
+	which identifies the user's browser and operating system. 
+	refers to user agent header in http requests which provides the info about client making the request.
+	To acees the user agent header, use "$_SERVER" superglobal array.
+
+
+Webconcept:
+	web page is composedusinghtml
+ 	html consists of tags for formatting static text, multimedia data
+	javascript embbed with html to produce dynamic content on clients browser
+	php embbed with html for server  side processing

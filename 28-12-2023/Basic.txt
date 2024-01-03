@@ -1,0 +1,43 @@
+https://www.tutorialspoint.com/php/php_introduction.htm
+
+PHP?
+full form - Hypertext Preprocessor
+abbreviated as Personal Home Page
+created by Rasmus Lerdorf in 1994. The syntax of PHP is similar to C, C++, and Java.
+
+HTML AND PHP
+ It can be easily embedded with HTML files and HTML codes can also be written in a PHP file.
+ PHP codes are executed on the server whereas HTML codes are directly rendered on the browser.
+
+Why PHP?
+ PHP allows web developers to create dynamic content and interact with databases.
+ simplicity, speed, and flexibility.
+ 
+
+
+Server?
+  A server commonly refers to a computer program that receives and responds to requests made over a network. It receives the request for a web document from the client and sends the requested information to the client computer on the Internet. A device can be both a client and a server at the same time, as an individual system has the ability to provide resources and use them from another system in one go. 
+
+Characteristics?
+
+1. Open source: 
+	 free download
+2. Simplicity: 
+	no libraries, strucutre is simple.It contains lots of pre-defined functions to secure your data.
+3.Efficiency(capable of producing desired results with little or no waste (as of time or materials)):
+	eliminates unnecessary memory allocation.uses resource allocation mechanisms(Resource allocation is a technique in which the available resources such as central processing unit, random-access memory, storage, and network bandwidth in cloud data centres are divided among users in a way that facilitates resource utilisation, provider profit, and user satisfaction.) and object-oriented programming, in addition to session management features.
+4. Security: 
+	Many encryption functions are supported by PHP to secure the data.
+5.Flexibility:
+	because it can be embedded with HTML, CSS, JavaScript, XML, and many other languages. PHP code can be run on any device like Phone, Tabs, Laptops etc.
+6.Object-Oriented: 
+	The object-oriented programming features are added in PHP 4.0.
+
+Usage of PHP?
+PHP can generate dynamic page content
+PHP can create, open, read, write, delete, and close files on the server
+PHP can collect form data
+PHP can send and receive cookies
+PHP can add, delete, modify data in your database
+PHP can be used to control user-access
+PHP can encrypt data
